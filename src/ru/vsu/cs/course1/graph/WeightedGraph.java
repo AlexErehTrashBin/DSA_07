@@ -17,11 +17,8 @@ public interface WeightedGraph extends Graph {
 
     /**
      * Добавление ребра между вершинами с номерами v1 и v2 c весом w
-     * @param v1
-     * @param v2
-     * @param weight
      */
-    void addAdge(int v1, int v2, double weight);
+    void addEdge(int v1, int v2, double weight);
 
     /**
      * @param v Номер вершины, смежные с которой необходимо найти
@@ -31,8 +28,6 @@ public interface WeightedGraph extends Graph {
 
     /**
      * Вес ребра между вершинами v1 и v2
-     * @param v1
-     * @param v2
      * @return вес или null, если вершины не связаны
      */
     default Double getWeight(int v1, int v2) {

@@ -13,20 +13,15 @@ public class AdjListsGraph implements Graph {
     private int vCount = 0;
     private int eCount = 0;
 
-    private static Iterable<Integer> nullIterable = new Iterable<Integer>() {
+    private static final Iterable<Integer> nullIterable = () -> new Iterator<Integer>() {
         @Override
-        public Iterator<Integer> iterator() {
-            return new Iterator<Integer>() {
-                @Override
-                public boolean hasNext() {
-                    return false;
-                }
+        public boolean hasNext() {
+            return false;
+        }
 
-                @Override
-                public Integer next() {
-                    return null;
-                }
-            };
+        @Override
+        public Integer next() {
+            return null;
         }
     };
 
