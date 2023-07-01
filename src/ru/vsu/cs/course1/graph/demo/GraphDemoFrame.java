@@ -287,6 +287,11 @@ public class GraphDemoFrame extends JFrame {
                         .map(Object::toString)
                         .collect(Collectors.joining(", ")));
             });
+            try {
+                panelGraphPainter.paint(dotToSvg(GraphUtils.toDot(graph, removalList)));
+            } catch (IOException ex) {
+                SwingUtils.showErrorMessageBox(ex);
+            }
         });
         /*checkForTreeButton.addActionListener(e -> {
             if (graph == null) return;

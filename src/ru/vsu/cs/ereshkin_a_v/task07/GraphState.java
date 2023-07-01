@@ -15,25 +15,6 @@ public class GraphState {
 		this.deleted = deleted;
 	}
 
-	public boolean[] getDeletedArr() {
-		return Arrays.copyOf(deleted, deleted.length);
-	}
-
-	public int getDeletedVerticesCount(){
-		int count = 0;
-		for (boolean b : deleted) {
-			if (b) count++;
-		}
-		return count;
-	}
-	public List<Integer> getDeletedVertices(){
-		List<Integer> result = new ArrayList<>();
-		for (int i = 0; i < deleted.length; i++) {
-			if (deleted[i]) result.add(i);
-		}
-		return result;
-	}
-
 	public boolean isTree(){
 		return !isCyclic() && !isFullyConnected();
 	}
@@ -47,7 +28,4 @@ public class GraphState {
 	}
 
 
-	public int getDeletedCount(){
-		return deleted.length;
-	}
 }
