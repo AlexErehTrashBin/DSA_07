@@ -2,10 +2,6 @@ package ru.vsu.cs.ereshkin_a_v.task07;
 
 import ru.vsu.cs.course1.graph.Graph;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 public class GraphState {
 	private final boolean[] deleted;
 	private final Graph g;
@@ -16,11 +12,11 @@ public class GraphState {
 	}
 
 	public boolean isTree(){
-		return !isCyclic() && !isFullyConnected();
+		return !isCyclic() && isFullyConnected();
 	}
 
 	private boolean isFullyConnected() {
-		return !ConnectionUtil.isFullyConnected(g, deleted);
+		return ConnectionUtil.isFullyConnected(g, deleted);
 	}
 
 	private boolean isCyclic(){

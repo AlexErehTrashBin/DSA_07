@@ -34,7 +34,7 @@ import java.io.IOException;
 
 /**
  * Примеры из описания graphviz-java:
- *   https://github.com/nidi3/graphviz-java
+ *   <a href="https://github.com/nidi3/graphviz-java">...</a>
  */
 public class GraphvizExamples {
 

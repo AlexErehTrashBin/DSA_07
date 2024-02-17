@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0f30c31-7042-41d8-8fa8-a81744b8b657" name="Default Changelist" comment="Fix little stuff.">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="d0f30c31-7042-41d8-8fa8-a81744b8b657" name="Default Changelist" comment="Lil update.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/GraphUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/GraphUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphDemoFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphDemoFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphvizExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphvizExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ru/vsu/cs/ereshkin_a_v/task07/GraphState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ru/vsu/cs/ereshkin_a_v/task07/GraphState.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +40,10 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="1alEbUYNN2KGvhqwx5T8f1PY4t1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -107,7 +110,12 @@
       <workItem from="1687953180300" duration="550000" />
       <workItem from="1688125807329" duration="8879000" />
       <workItem from="1688147335072" duration="662000" />
-      <workItem from="1688205704204" duration="612000" />
+      <workItem from="1688205704204" duration="823000" />
+      <workItem from="1688223981286" duration="3829000" />
+      <workItem from="1688237341531" duration="278000" />
+      <workItem from="1688332120948" duration="1189000" />
+      <workItem from="1692749887238" duration="1981000" />
+      <workItem from="1693679023593" duration="56000" />
     </task>
     <task id="LOCAL-00001" summary="Second commit">
       <created>1622212057858</created>
@@ -139,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1688136507414</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lil update.">
+      <option name="closed" value="true" />
+      <created>1688206467396</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688206467396</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +176,8 @@
     <MESSAGE value="Second commit" />
     <MESSAGE value="Initial commit." />
     <MESSAGE value="Fix little stuff." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix little stuff." />
+    <MESSAGE value="Lil update." />
+    <option name="LAST_COMMIT_MESSAGE" value="Lil update." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -171,9 +188,9 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/demo/GraphDemoFrame.java</url>
-          <line>322</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/ru/vsu/cs/course1/graph/GraphUtils.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
